@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0)); /* Initialize random number generator with current time */
 
-	n = rand() - RAND_MAX / 2; /* Generate a random number and assign it to variable n */
+	n = rand(); /* Generate a random number and assign it to variable n */
 
 	printf("The number %d is ", n);
 
@@ -25,7 +25,7 @@ int main(void)
 	{
 		printf("negative");
 	}
-	else
+	else (n = 0);
 	{
 		printf("zero");
 	}
