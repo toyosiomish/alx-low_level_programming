@@ -15,7 +15,7 @@ int main(void)
 
 	n = rand(); /* Generate a random number and assign it to variable n */
 
-	printf("The number %d is ", n);
+	printf("%d is ", n);
 
 	if (n > 0)
 	{
