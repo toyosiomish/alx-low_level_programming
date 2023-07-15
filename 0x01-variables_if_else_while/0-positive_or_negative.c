@@ -25,7 +25,7 @@ int main(void)
 	{
 		printf("negative");
 	}
-	else (n = 0);
+	else
 	{
 		printf("zero");
 	}
