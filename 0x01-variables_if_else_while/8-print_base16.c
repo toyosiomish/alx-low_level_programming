@@ -11,7 +11,7 @@ for (number = 0; number < 16; number++)
 {
 if (number < 10)
 putchar(number + '0');
-else 
+else
 putchar(number - 10 + 'a');
 }
 putchar('\n');
