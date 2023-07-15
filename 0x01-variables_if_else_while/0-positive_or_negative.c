@@ -13,7 +13,7 @@ srand(time(0)); /* Initialize random number generator with current time */
 n = rand(); /* Generate a random number and assign it to variable n */
 if (n > 0)
 {
-iprintf("%d is positive\n", n);
+printf("%d is positive\n", n);
 }
 else if (n < 0)
 {	
