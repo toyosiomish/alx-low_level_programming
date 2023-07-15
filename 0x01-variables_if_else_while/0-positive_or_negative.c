@@ -11,10 +11,8 @@ int main(void)
 {
 	int n;
 
-	srand(time(0)); /* Initialize random number generator with current time */
-
-	n = rand(); /* Generate a random number and assign it to variable n */
-
+	srand(time(0)); 
+	n = rand() - RAND_MAX / 2;
 	printf("The number %d is ", n);
 
 	if (n > 0)
