@@ -2,11 +2,11 @@
 /**
  * main - Entry point of the program
  *
- * Return
+ * Return: 0 (Success)
  */
 int main(void)
 {
-int c;
+char c;
 c = 'a';
 while (c <= 'z')
 {
