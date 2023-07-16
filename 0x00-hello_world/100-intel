@@ -1,6 +1,2 @@
 #!/bin/bash
-
-CFILE="O-main.c"
-OUTPUT_FILE="output.s"
-
-gcc -S -masm=intel "$CFILE" -o "$OUTPUT_FILE"
+gcc -S -masm=intel $CFILE
