@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void)
-{
 // This is the main function
+{
 int n;
 int a[5];
 int *p;
